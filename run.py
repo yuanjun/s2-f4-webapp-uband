@@ -4,10 +4,18 @@ from flask import render_template
 
 app = Flask(__name__)
 
-@app.route('/b20840')
-def hello_world():
-	return render_template('b20840.html')
-    
+@app.route('/')
+def homepage():
+	return render_template('index.html')
+
+# @app.route('/b20840')
+# def hello_world():
+# 	return render_template('b20840.html')
+
+@app.route('/<string:student_number>/details')
+def details(student_number):
+	return render_template(str(student_number) + '.html')
+
 
 if __name__ == '__main__':
     app.run(debug=True)
