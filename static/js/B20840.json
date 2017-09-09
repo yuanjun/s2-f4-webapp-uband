@@ -1,0 +1,31 @@
+{
+	"id":"B20840",
+	"name":"代码豆",
+	"description":"A boring dude, taking care of a baby girl everyday now",
+	"tags":"what a guy!",
+
+	"resume":{
+		"basic":{
+			"phone number":"110",
+			"IM ID":"funnydue@funnyland.com"
+
+		},
+		"history":[
+			{
+				"Period":"2010-2014",
+				"content":"Work work and work"
+			},
+			{
+				"Period":"2014-2015",
+				"content":"family family and family"
+			}
+		]
+	},
+	"time_lime":[
+		{
+			"title":"time_lime在这里到底是什么意思？",
+			"content":"我也不知道呢，好奇怪",
+			"created_at":"2017-08-20 09:07 PM"
+		}
+	]
+}
